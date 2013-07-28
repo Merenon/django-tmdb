@@ -1,8 +1,12 @@
 django-tmdb
 ===========
 
-A small TMDB (themoviedatabase) wrapper for Django
+A small TMDB (themoviedatabase) API v3 wrapper for Django
 
+## Requirements
+	1. Python module _requests_
+		easy_install requests
+	2. TMDB Api Key
 
 ## Installation
 	1. Put the tmdb.py file in your app folder
