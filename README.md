@@ -14,8 +14,8 @@ A small TMDB (themoviedatabase) wrapper for Django
 	3. Import the wrapper in your views.py (or somewhere else)
 		from app.tmdb import *
 	
-	4. Create the instance and set the language as parameter
-		tmdb = TMDB('en')
+	4. Create the instance
+		tmdb = TMDB()
 	
 	5. Use the wrapper functions
-		movie_info = tmdb.getMovieInfo(tmdb_id)
+		movie_info = tmdb.getMovieInfo(tmdb_id, 'en')
