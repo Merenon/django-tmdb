@@ -1,2 +1,4 @@
+include *.py
 include LICENSE
 include README.rst
+recursive-include tmdb *.py
