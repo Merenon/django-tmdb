@@ -11,6 +11,15 @@ Requirements
 
 2. TMDB Api Key
 
+3. Enabled caching in Django
+
+Install
+-----------
+
+Simply install django-tmdb with pip
+
+    pip install django-tmdb
+
 Quick start
 -----------
 
